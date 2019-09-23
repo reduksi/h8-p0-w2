@@ -1,0 +1,67 @@
+//Number 1
+STORE "massa" with 600
+STORE "percepatan" with 2
+STORE "gaya" without any value
+
+CALCULATE "massa" times "percepatan"
+SET "gaya" value with calculation result
+
+DISPLAY "gaya"
+
+==========================================================
+
+//Number 2
+//pseudocode
+STORE "tahun" with any value
+
+IF (("tahun" % 4 is 0) AND ("tahun" % 100 is not 0)) OR (("tahun" % 4 is 0) AND ("tahun" % 100 is 0) AND ("tahun" % 400 is 0))
+    DISPLAY "Tahun ini kabisat"
+else
+    DISPLAY "Tahun ini bukan kabisat"
+
+//algorithm
+1. masukkan tahun
+2. apakah tahun habis dibagi dengan 4 dan tidak habis dibagi 100?, jika ya lanjut ke no 4, jika tidak lanjut ke no 5
+3. apakah tahun habis dibagi 4, habis dibagi 100 ,dan tahun habis dibagi 400?, jika ya lanjut ke no 4, jika tidak lanjut ke no 5
+4. tahun adalah kabisat
+5. tahun bukan kabisat
+
+==========================================================
+
+//Number 3
+//pseudocode
+STORE "pakaian" with 0
+
+WHILE "pakaian" < 20
+    ADD "pakaian" by 1
+
+DO "nyalakan mesin cuci"
+
+//algorithm
+1. masukkan 1 pakaian
+2. apakah pakaian yang dimasukkan kurang dari 20? jika ya masuk ke no 1, jika tidak masuk ke no 3
+3. mesin suci akan dinyalakan
+
+==========================================================
+
+//Number 4
+//pseudocode
+STORE "kuku[]" with "panjang" or "pendek"
+STORE "jumlah" with 0
+
+WHILE "jumlah" < 39
+    IF "kuku[jumlah]" is "panjang"
+        DO "Hukum Murid"
+    ELSE
+        DO "Puji Murid"
+    ADD "jumlah" by 1
+DISPLAY "Pemeriksaan kuku selesai"
+
+//algorithm
+1. periksa kuku Murid
+2. apakah kuku murid panjang? jika ya masuk no 3, jika tidak masuk no 4
+3. Hukum murid
+4. puji murid
+5. apakah murid yang sudah diperiksa kurang dari 40 anak? jika ya masuk ke no 1, jika tidak masuk ke no 6
+6. pemeriksaan kuku selesai
+ 
