@@ -46,11 +46,11 @@ DO "nyalakan mesin cuci"
 
 //Number 4
 //pseudocode
-STORE "kuku[]" with "panjang" or "pendek"
+STORE "kuku" with "panjang" or "pendek"
 STORE "jumlah" with 0
 
 WHILE "jumlah" < 39
-    IF "kuku[jumlah]" is "panjang"
+    IF "kuku" is "panjang"
         DO "Hukum Murid"
     ELSE
         DO "Puji Murid"
